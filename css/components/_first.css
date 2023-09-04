@@ -8,10 +8,13 @@
 	color: var(--white-color);
 	padding-top: 223px;
 }
-
+.first__container {
+	position: relative;
+	height: 100%;
+}
 .first__link {
 	background-color: rgb(28, 46, 61, 0.4);
-	background-color: #000;
+	/* background-color: #000; */
 	font-weight: 800;
 	font-size: 11px;
 	letter-spacing: 2px;
@@ -47,4 +50,13 @@
 	text-transform: uppercase;
 	border-radius: 8px;
 	color: var(--white-color);
+}
+
+.first__bottom {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+	width: calc(100%-60px);
+	display: flex;
 }
